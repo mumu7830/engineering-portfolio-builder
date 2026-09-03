@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - repository-source.zip
+      - .github/workflows/bootstrap.yml
 
 permissions:
   contents: write
@@ -16,8 +17,12 @@ jobs:
       - name: Import audited source archive
         shell: bash
         run: |
+          if [ ! -f repository-source.zip ]; then
+            echo "Archive already imported; nothing to do."
+            exit 0
+          fi
           unzip -o repository-source.zip
-          rm -f repository-source.zip .github/workflows/bootstrap.yml
+          rm -f repository-source.zip .github/workflows/ci.yml
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
