@@ -1,0 +1,14 @@
+{
+  "fields": [
+    { "field": "email", "value": "engineer@example.com" },
+    { "field": "location", "value": "示例市" },
+    { "field": "portrait", "value": "media/portrait-placeholder.svg" },
+    { "field": "wechatQr", "value": "media/wechat-placeholder.svg" }
+  ],
+  "files": [
+    "media/portrait-placeholder.svg",
+    "media/wechat-placeholder.svg"
+  ],
+  "confirmationRequired": true,
+  "confirmationScope": "next-upload-only"
+}

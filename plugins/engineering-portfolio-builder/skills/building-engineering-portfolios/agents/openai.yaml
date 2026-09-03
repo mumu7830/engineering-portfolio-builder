@@ -1,0 +1,7 @@
+interface:
+  display_name: "Engineering Portfolio Builder"
+  short_description: "Build evidence-based engineering portfolio websites"
+  brand_color: "#0A2748"
+  default_prompt: "Use $building-engineering-portfolios to turn my resume and project materials into a reviewed portfolio website."
+policy:
+  allow_implicit_invocation: true

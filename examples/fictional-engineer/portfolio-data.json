@@ -1,0 +1,162 @@
+{
+  "profile": {
+    "name": "林知远",
+    "title": "自动化与结构设计工程师",
+    "summary": "关注自动化设备结构、运动方案与工程验证，把需求转化为可制造、可测试的技术方案。",
+    "location": "示例市",
+    "email": "engineer@example.com",
+    "publication": {
+      "email": false,
+      "location": false
+    }
+  },
+  "education": [
+    {
+      "id": "education-1",
+      "organization": "北辰工程大学（虚构）",
+      "title": "机械工程硕士",
+      "period": "2023—2026",
+      "details": ["研究方向：自动化装备结构与仿真"],
+      "sources": ["fictional-resume.docx#education-1"]
+    }
+  ],
+  "experience": [
+    {
+      "id": "experience-1",
+      "organization": "远岚智能装备有限公司（虚构）",
+      "title": "结构设计实习生",
+      "period": "2025.06—2025.09",
+      "details": ["参与非标自动化单元结构设计与装配评审"],
+      "sources": ["fictional-resume.docx#experience-1"]
+    }
+  ],
+  "skills": [
+    {
+      "id": "design",
+      "label": "结构设计",
+      "items": ["SolidWorks", "机械原理", "装配设计", "工程图"],
+      "sources": ["fictional-resume.docx#skills"]
+    },
+    {
+      "id": "analysis",
+      "label": "仿真与验证",
+      "items": ["ANSYS", "运动学分析", "静力学分析"],
+      "sources": ["fictional-resume.docx#skills"]
+    }
+  ],
+  "media": [
+    {
+      "id": "sorting-layout",
+      "path": "media/sorting-cell-layout.svg",
+      "alt": "虚构视觉分拣单元结构示意图",
+      "caption": "视觉分拣单元结构与工作区域示意",
+      "source": "fictional-report.pdf#p4",
+      "kind": "diagram",
+      "width": 1200,
+      "height": 760,
+      "publicationApproved": true
+    },
+    {
+      "id": "bracket-analysis",
+      "path": "media/bracket-analysis.svg",
+      "alt": "虚构支架静力学分析示意图",
+      "caption": "支架载荷路径与高响应区域示意",
+      "source": "fictional-report.pdf#p9",
+      "kind": "simulation",
+      "width": 1200,
+      "height": 760,
+      "publicationApproved": true
+    }
+  ],
+  "projects": [
+    {
+      "id": "sorting-cell",
+      "title": "视觉分拣自动化单元",
+      "summary": "完成设备布局、执行机构结构方案与工作节拍验证。",
+      "role": "结构设计与运动验证",
+      "period": "2025.02—2025.05",
+      "tools": ["SolidWorks", "MATLAB"],
+      "tags": ["自动化", "机构设计", "运动学"],
+      "heroMediaId": "sorting-layout",
+      "sections": [
+        {
+          "kind": "background",
+          "title": "项目背景",
+          "text": "虚构教学产线需要在受限空间内完成来料识别、抓取与分流。",
+          "sources": ["fictional-resume.docx#project-1"],
+          "mediaIds": ["sorting-layout"]
+        },
+        {
+          "kind": "problem",
+          "title": "关键问题",
+          "text": "设备需要同时满足机械臂可达性、输送节拍和维护空间要求。",
+          "sources": ["fictional-report.pdf#p3"],
+          "mediaIds": []
+        },
+        {
+          "kind": "action",
+          "title": "我的行动",
+          "text": "建立整机装配模型，比较两种布局并校核执行机构工作包络。",
+          "sources": ["fictional-report.pdf#p6"],
+          "mediaIds": []
+        },
+        {
+          "kind": "result",
+          "title": "项目成果",
+          "text": "形成可评审结构方案、关键零件图和节拍验证记录。",
+          "sources": ["fictional-slides.pptx#slide-12"],
+          "mediaIds": []
+        }
+      ]
+    },
+    {
+      "id": "lightweight-bracket",
+      "title": "轻量化设备支架",
+      "summary": "通过载荷路径分析与迭代建模优化支架结构。",
+      "role": "结构设计与静力学分析",
+      "period": "2024.09—2024.12",
+      "tools": ["SolidWorks", "ANSYS"],
+      "tags": ["轻量化", "有限元", "结构优化"],
+      "heroMediaId": "bracket-analysis",
+      "sections": [
+        {
+          "kind": "background",
+          "title": "项目背景",
+          "text": "虚构实验设备需要在限定安装界面内降低支架质量。",
+          "sources": ["fictional-resume.docx#project-2"],
+          "mediaIds": []
+        },
+        {
+          "kind": "problem",
+          "title": "关键问题",
+          "text": "原始结构存在局部应力集中且检修工具空间不足。",
+          "sources": ["fictional-report.pdf#p8"],
+          "mediaIds": ["bracket-analysis"]
+        },
+        {
+          "kind": "action",
+          "title": "我的行动",
+          "text": "梳理边界条件和载荷路径，迭代加强筋与开孔方案并复核装配空间。",
+          "sources": ["fictional-report.pdf#p10"],
+          "mediaIds": []
+        },
+        {
+          "kind": "result",
+          "title": "项目成果",
+          "text": "完成结构方案冻结、有限元对比和工程图输出。",
+          "sources": ["fictional-slides.pptx#slide-18"],
+          "mediaIds": []
+        }
+      ]
+    }
+  ],
+  "otherWork": [
+    {
+      "id": "fixture-study",
+      "title": "模块化定位夹具概念",
+      "summary": "面向多规格零件的可调定位与快速换型设计。",
+      "sources": ["fictional-resume.docx#other-work"]
+    }
+  ],
+  "unresolved": []
+}

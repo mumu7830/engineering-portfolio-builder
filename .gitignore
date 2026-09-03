@@ -1,0 +1,16 @@
+.worktrees/
+node_modules/
+.tools/
+.tmp/
+input/
+private/
+generated/
+dist/
+coverage/
+playwright-report/
+test-results/
+*.zip
+.env*
+*.pem
+*.key
+cloudbase.config.*

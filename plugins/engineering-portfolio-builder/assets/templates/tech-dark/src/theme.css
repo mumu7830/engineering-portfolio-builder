@@ -1,0 +1,11 @@
+:root {
+  --bg: #071d37;
+  --surface: #0c2b4e;
+  --text: #eff7ff;
+  --muted: #9fb4c9;
+  --accent: #70f0cf;
+  --line: rgba(159, 190, 220, .22);
+}
+.portfolio[data-template="tech-dark"] { background-image: radial-gradient(circle at 82% 14%, rgba(41, 122, 181, .22), transparent 32%), linear-gradient(180deg, #071d37, #082542 58%, #061a30); }
+.portfolio[data-template="tech-dark"] .project-card:nth-child(even) { background: #0a3156; }
+.portfolio[data-template="tech-dark"] .project-card:nth-child(even) .project-card__summary { grid-template-columns: 1.15fr 1fr; }

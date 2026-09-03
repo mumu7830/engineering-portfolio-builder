@@ -1,0 +1,27 @@
+:root {
+  --bg: #e8ff63;
+  --surface: #f8f7f2;
+  --text: #15171f;
+  --muted: #50545e;
+  --accent: #ec4a28;
+  --line: rgba(21, 23, 31, .25);
+  color-scheme: light;
+}
+.portfolio[data-template="creative-visual"] { background: linear-gradient(135deg, rgba(255,255,255,.32) 0 18%, transparent 18% 82%, rgba(236,74,40,.1) 82%), var(--bg); }
+.portfolio[data-template="creative-visual"] .site-header { background: rgba(232,255,99,.86); border-bottom: 2px solid var(--text); }
+.portfolio[data-template="creative-visual"] .brand { font-size: 1.15rem; text-transform: uppercase; }
+.portfolio[data-template="creative-visual"] .creative-orbit { display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem; font: .7rem/1 monospace; letter-spacing: .12em; }
+.portfolio[data-template="creative-visual"] .creative-orbit i { width: 4rem; height: 1px; background: var(--text); transform: rotate(-12deg); }
+.portfolio[data-template="creative-visual"] h1 { max-width: 12ch; font-weight: 900; text-transform: uppercase; }
+.portfolio[data-template="creative-visual"] .hero { grid-template-columns: 1.3fr .7fr; }
+.portfolio[data-template="creative-visual"] .hero__signal i { border: 2px solid var(--text); border-radius: 0 50% 50% 50%; background: var(--accent); box-shadow: 2rem -2rem 0 rgba(255,255,255,.7); transform: rotate(12deg); }
+.portfolio[data-template="creative-visual"] .section-heading { border-width: 2px; transform: rotate(-.35deg); }
+.portfolio[data-template="creative-visual"] .project-list { gap: 5rem; }
+.portfolio[data-template="creative-visual"] .project-card { border: 2px solid var(--text); border-radius: 0; box-shadow: 1.1rem 1.1rem 0 var(--accent); }
+.portfolio[data-template="creative-visual"] .project-card:nth-child(even) { margin-left: clamp(0rem, 7vw, 7rem); box-shadow: -1.1rem 1.1rem 0 #7da7ff; }
+.portfolio[data-template="creative-visual"] .project-figure { border: 2px solid var(--text); border-radius: 0; }
+.portfolio[data-template="creative-visual"] .primary-action,
+.portfolio[data-template="creative-visual"] .detail-toggle { border: 2px solid var(--text); border-radius: 0; background: var(--text); color: #fff; box-shadow: .35rem .35rem 0 var(--accent); }
+.portfolio[data-template="creative-visual"] .other-work article,
+.portfolio[data-template="creative-visual"] .capability-grid article { border: 2px solid var(--text); border-radius: 0; }
+@media (max-width: 760px) { .portfolio[data-template="creative-visual"] .hero { grid-template-columns: 1fr; } .portfolio[data-template="creative-visual"] .project-card:nth-child(even) { margin-left: 0; } }

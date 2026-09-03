@@ -1,0 +1,20 @@
+{
+  "name": "engineering-portfolios",
+  "interface": {
+    "displayName": "Engineering Portfolios"
+  },
+  "plugins": [
+    {
+      "name": "engineering-portfolio-builder",
+      "source": {
+        "source": "local",
+        "path": "./plugins/engineering-portfolio-builder"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

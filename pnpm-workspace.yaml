@@ -1,0 +1,5 @@
+packages:
+  - "plugins/*/assets/templates/*"
+allowBuilds:
+  esbuild: true
+  sharp: true

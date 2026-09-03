@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-label="Fictional bracket analysis diagram">
+  <defs><linearGradient id="stress" x1="0" x2="1"><stop offset="0" stop-color="#183b63"/><stop offset="0.45" stop-color="#16a3a5"/><stop offset="0.72" stop-color="#f2c94c"/><stop offset="1" stop-color="#e45b4f"/></linearGradient></defs>
+  <rect width="1200" height="760" fill="#f7f9fb"/>
+  <path d="M190 590 L300 170 L520 170 L610 345 L925 345 L1020 590 Z" fill="url(#stress)" stroke="#0a2748" stroke-width="18"/>
+  <circle cx="380" cy="315" r="72" fill="#f7f9fb" stroke="#0a2748" stroke-width="16"/>
+  <circle cx="805" cy="465" r="88" fill="#f7f9fb" stroke="#0a2748" stroke-width="16"/>
+  <g stroke="#ffffff" stroke-width="8" opacity="0.8"><path d="M270 545 L510 210"/><path d="M410 590 L590 350"/><path d="M610 345 L890 590"/></g>
+  <path d="M930 150 L930 300" stroke="#e45b4f" stroke-width="20"/><path d="M890 255 L930 305 L970 255" fill="none" stroke="#e45b4f" stroke-width="20"/>
+  <rect x="170" y="640" width="860" height="32" rx="16" fill="url(#stress)"/>
+  <text x="170" y="110" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#0a2748">FICTIONAL BRACKET / LOAD PATH STUDY</text>
+</svg>

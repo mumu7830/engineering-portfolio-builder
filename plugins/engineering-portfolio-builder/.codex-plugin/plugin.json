@@ -1,0 +1,24 @@
+{
+  "name": "engineering-portfolio-builder",
+  "version": "0.1.0",
+  "description": "Build evidence-based engineering portfolio websites from resumes and supporting materials.",
+  "author": {
+    "name": "Engineering Portfolio Builder Contributors"
+  },
+  "license": "MIT",
+  "keywords": ["portfolio", "resume", "engineering", "cloudbase"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Engineering Portfolio Builder",
+    "shortDescription": "Turn engineering materials into portfolio sites.",
+    "longDescription": "Create evidence-based engineering portfolio websites, compare three responsive designs, and prepare a privacy-reviewed Tencent CloudBase deployment.",
+    "developerName": "Engineering Portfolio Builder Contributors",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write"],
+    "defaultPrompt": [
+      "Turn my resume and project materials into an engineering portfolio website.",
+      "Create three portfolio previews and help me choose one.",
+      "Prepare my reviewed portfolio for Tencent CloudBase."
+    ]
+  }
+}
